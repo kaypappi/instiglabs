@@ -93,7 +93,7 @@ const ComingSoon = () => {
         <h2 className="h2 text-allports font-extrabold">
           Stay Tuned for an Exciting Launch
         </h2>
-        <p className="p text-allports-700 mt-5 mb-12">
+        <p className="p text-allports-700 mt-5 mb-5 lg:mb-12">
           The wait is almost over! Our new website will redefine excellence.
         </p>
         <Badge className=" bg-[#DDF7FF] text-allports px-3 py-2 flex items-center text-sm mb-5">
@@ -140,7 +140,7 @@ const ComingSoon = () => {
             If you have any questions please contact us at:
           </p>
           <p className="h6 text-allports-700">help@instiglabs.com</p>
-          <div className="social flex w-max mx-auto mt-8">
+          <div className="social flex w-max mx-auto mt-4 md:mt-8">
             {social.map((item, index) => (
               <a href={item.link} key={item.name} target="_blank">
                 <Image

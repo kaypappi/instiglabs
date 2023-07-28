@@ -93,7 +93,7 @@ const ComingSoon = () => {
         <h2 className="h2 text-allports font-extrabold">
           Stay Tuned for an Exciting Launch
         </h2>
-        <p className="p text-allports-700 mt-5 mb-5 lg:mb-12">
+        <p className="p text-allports-700 mt-5 mb-5 lg:mb-12 max-w-xs md:max-w-5xl">
           The wait is almost over! Our new website will redefine excellence.
         </p>
         <Badge className=" bg-[#DDF7FF] text-allports px-3 py-2 flex items-center text-sm mb-5">

@@ -70,8 +70,8 @@ const ComingSoon = () => {
   }
   return (
     <section className="w-screen min-h-screen grow items-center bg-[url('/images/heromesh.png')] relative">
-      <div className=" w-40 h-40 lg:w-60 lg:h-60 bg-[#3FB7D5] blur-[247px] absolute bottom-0 left-0"></div>
-      <div className=" w-40 h-40 lg:w-60 lg:h-60 bg-[#239C21] blur-[247px] absolute right-0 top-0"></div>
+      <div className=" w-20 h-20 lg:w-60 lg:h-60 bg-[#3FB7D5] blur-[247px] absolute bottom-0 left-0"></div>
+      <div className=" w-20 h-20 lg:w-60 lg:h-60 bg-[#239C21] blur-[247px] absolute right-0 top-0"></div>
       <div className="container w-full h-full flex flex-col justify-center items-center py-20 text-center ">
         <Image src="/images/logo.png" width={200} height={75} alt="logo" priority />
         <motion.div
